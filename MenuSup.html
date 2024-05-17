@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cahier d'appel numerique</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="icons\font\bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="MenuAd.css">
+    <link rel="stylesheet" type="text/css" href="sidebars.css">
+    <link rel="stylesheet" type="text/css" href="headers.css">
+    <script src="js\bootstrap.bundle.js"></script>
+    <script src="icons\font\bootstrap-icons.js"></script>
+    <script src="sidebars.js"></script>
+
+    <div class="container" style="width: 1100px;float:right ;">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="fs-4" style="color:white ;float:left ;">Vous etes un super administrateur</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="Acceuil.html" class="nav-link active" aria-current="page" style="float:right ;background-color: black;"><i class="bi bi-power"></i> Deconnexion</a></li>
+            
+          </ul>
+        </header>
+      </div>
+       
+    <div class="b-example-divider b-example-vr" ></div>
+
+    <div class="flex-shrink-0 p-3 bg-white" style="width: 280px ;height: 695px;position:absolute;top: 0%;" id="menu">
+      <a href="#" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        <span class="fs-5 fw-bold">CAHIER D'APPEL</span>
+      </a>
+      <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+            <i class="bi bi-person-circle"></i>  Gestion etudiants
+          </button>
+          <div class="collapse show" id="home-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="Students.html" class="link-dark d-inline-flex text-decoration-none rounded"><i class="bi bi-person-plus-fill"></i>  Enregistrer etudiant</a></li>
+              <li><a href="ListStud.html" class="link-dark d-inline-flex text-decoration-none rounded"> <i class="bi bi-person-lines-fill"></i> Liste etudiants</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="border-top my-3">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+            <i class="bi bi-person-square"></i>Gestion enseignants
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="Teachers.html" class="link-dark d-inline-flex text-decoration-none rounded"><i class="bi bi-person-plus-fill"></i> Enregistrer enseignants</a></li>
+                <li><a href="ListTeachers.html" class="link-dark d-inline-flex text-decoration-none rounded"> <i class="bi bi-person-lines-fill"></i> Liste enseignants</a></li>
+              </ul>
+            </div>
+        </li>
+        <li class="border-top my-3">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+             <i class="bi bi-book-fill"></i>Gestion matieres
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="Matieres.html" class="link-dark d-inline-flex text-decoration-none rounded"><i class="bi bi-book"></i> Enregistrer matieres</a></li>
+                <li><a href="ListMat.html" class="link-dark d-inline-flex text-decoration-none rounded"><i class="bi bi-bookshelf"></i> Liste matieres</a></li>
+              </ul>
+            </div>
+        </li>
+        
+        <li class="border-top my-3">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+            <i class="bi bi-journal-bookmark-fill"></i> Rapports
+          </button>
+          <div class="collapse" id="orders-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><i class="bi bi-bookmarks-fill"></i> Rapport journalier</a></li>
+              <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><i class="bi bi-bookmark-fill"></i> Rapport hebdomadaire</a></li>
+              <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded"><i class="bi bi-bookmark-plus-fill"></i> Modifier Rapport</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="border-top my-3"></li>
+        
+      </ul>
+    </div>
+      
+</body>
+</html>

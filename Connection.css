@@ -1,0 +1,16 @@
+#Ad{
+    position: absolute;
+    top:250px;
+    left:40%;
+   
+    border: black 2px;
+
+    
+}
+
+#map{
+    border: black 2px;
+}
+fieldset{
+    border: black 2px;
+}

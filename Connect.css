@@ -1,0 +1,10 @@
+#card1{
+    position: absolute;
+    top:100px;
+    left:250px;
+}
+#card2{
+    position: absolute;
+    top:100px;
+    right:250px;
+}
